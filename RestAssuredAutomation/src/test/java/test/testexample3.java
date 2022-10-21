@@ -173,6 +173,6 @@ public class testexample3 {
 		then().
 			statusCode(204).
 			log().all();
-
+		System.out.println(request3);
 		}
 }
